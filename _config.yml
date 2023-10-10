@@ -87,6 +87,7 @@ author:
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
+  researchgate     : "https://www.researchgate.net/profile/Rahul-Dev-Sharma"
   email            :
   uri              :
   bitbucket        :
@@ -97,19 +98,18 @@ author:
   foursquare       :
   github           : "rahulsust"
   google_plus      :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   keybase          :
-  researchgate     :  #"https://www.researchgate.net/profile/Rahul-Dev-Sharma"
+  instagram        :
+  impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  LinkedIn         :  "https://www.linkedin.com/in/rahul-dev-sharma"
-  orcid            : #"https://orcid.org/0009-0005-8883-0707"
+  linkedin         : "https://www.linkedin.com/in/rahul-dev-sharma"
+  orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #""
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
