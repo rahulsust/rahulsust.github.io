@@ -9,7 +9,7 @@ I am a math enthusiast, exploring the connections between mathematics and quantu
 
 Areas I’m currently working on:  
 - Abstract algebra  
-- Representation
+- Representation Theory
 - Proof writing practice  
 
 ## Notes & Explorations
