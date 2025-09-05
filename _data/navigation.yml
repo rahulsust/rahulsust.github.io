@@ -11,6 +11,8 @@ main:
     url: /portfolio/
   - title: "Blog Posts"
     url: /year-archive/
+  - title: "Hobbies & Interests"
+    url: /hobbies/
   - title: "CV"
     url: /cv/
   - title: "Contact"
