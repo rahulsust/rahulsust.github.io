@@ -4,14 +4,28 @@
 {% include /comments-providers/scripts.html %}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+  var wrapper = document.getElementById("profile-wrapper");
   var toggleBtn = document.getElementById("toggle-profile");
-  var authorBox = document.getElementById("author-box");
 
-  if (toggleBtn && authorBox) {
-    toggleBtn.addEventListener("click", function() {
-      authorBox.classList.toggle("hidden");
-    });
+  // Load saved state
+  if (localStorage.getItem("profileState") === "closed") {
+    wrapper.classList.remove("profile-open");
+    wrapper.classList.add("profile-closed");
+    toggleBtn.textContent = "☰";
   }
+
+  toggleBtn.addEventListener("click", function() {
+    wrapper.classList.toggle("profile-open");
+    wrapper.classList.toggle("profile-closed");
+
+    if (wrapper.classList.contains("profile-open")) {
+      toggleBtn.textContent = "✖";
+      localStorage.setItem("profileState", "open");
+    } else {
+      toggleBtn.textContent = "☰";
+      localStorage.setItem("profileState", "closed");
+    }
+  });
 });
 </script>
 
