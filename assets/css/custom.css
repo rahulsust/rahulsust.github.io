@@ -4,7 +4,6 @@
   transition: all 0.4s ease;
 }
 
-/* Profile panel */
 #profile-wrapper {
   display: flex;
   align-items: flex-start;
@@ -14,18 +13,13 @@
 #author-box {
   max-width: 250px;
   transition: all 0.4s ease;
-}
-
-#profile-wrapper.profile-closed #author-box {
-  max-width: 0;
-  opacity: 0;
   overflow: hidden;
 }
 
 /* Hamburger button */
 .hamburger-icon {
   font-size: 1.6rem;
-  cursor: pointer;
+  cursor: pointer; /* index finger */
   user-select: none;
   transition: all 0.4s ease;
 }
@@ -42,6 +36,12 @@
   margin-left: auto;
 }
 
+/* Collapse profile when closed */
+#profile-wrapper.profile-closed #author-box {
+  max-width: 0;
+  opacity: 0;
+}
+
 /* Main content */
 #main-content {
   flex: 1;
@@ -49,7 +49,7 @@
   transition: all 0.4s ease;
 }
 
-/* Center main content when profile hidden */
+/* Center main content when profile is hidden */
 #profile-wrapper.profile-closed ~ #main-content {
   display: flex;
   justify-content: center;
