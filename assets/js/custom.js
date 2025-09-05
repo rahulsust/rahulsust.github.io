@@ -1,0 +1,17 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var toggleBtn = document.getElementById("toggle-profile");
+  var authorBox = document.getElementById("author-box");
+
+  // Load saved state
+  if (localStorage.getItem("authorProfileHidden") === "true") {
+    authorBox.classList.add("hidden");
+  }
+
+  toggleBtn.addEventListener("click", function() {
+    authorBox.classList.toggle("hidden");
+    // Save state
+    localStorage.setItem("authorProfileHidden", authorBox.classList.contains("hidden"));
+  });
+});
+</script>
