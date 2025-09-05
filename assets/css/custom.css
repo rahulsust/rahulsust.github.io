@@ -1,3 +1,10 @@
+#layout {
+  display: flex;
+  min-height: 100vh;
+  transition: all 0.4s ease;
+}
+
+/* Profile panel */
 #profile-wrapper {
   display: flex;
   align-items: flex-start;
@@ -5,8 +12,8 @@
 }
 
 #author-box {
-  flex: 1;
-  transition: max-width 0.4s ease, opacity 0.4s ease;
+  max-width: 250px;
+  transition: all 0.4s ease;
 }
 
 #profile-wrapper.profile-closed #author-box {
@@ -15,6 +22,7 @@
   overflow: hidden;
 }
 
+/* Hamburger button */
 .hamburger-icon {
   font-size: 1.6rem;
   cursor: pointer;
@@ -22,14 +30,29 @@
   transition: all 0.4s ease;
 }
 
-/* Icon position when open */
+/* Icon left when open */
 #profile-wrapper.profile-open .hamburger-icon {
-  order: -1; /* put on left */
+  order: -1;
   margin-right: 1rem;
 }
 
-/* Icon position when closed */
+/* Icon right when closed */
 #profile-wrapper.profile-closed .hamburger-icon {
-  order: 1; /* put on right */
+  order: 1;
   margin-left: auto;
+}
+
+/* Main content */
+#main-content {
+  flex: 1;
+  padding: 2rem;
+  transition: all 0.4s ease;
+}
+
+/* Center main content when profile hidden */
+#profile-wrapper.profile-closed ~ #main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
