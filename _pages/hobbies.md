@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Hobbies & Interests
+title: "Hobbies & Interests"
 permalink: /hobbies/
+author_profile: True
 ---
 
 ## Beyond Quantum
