@@ -1,0 +1,11 @@
+---
+layout: page
+title: Hobbies & Interests
+permalink: /hobbies/
+---
+
+## Beyond Quantum
+
+When I’m not exploring the depths of quantum information and computation, I enjoy pursuing a variety of interests that keep me inspired and balanced.
+
+[To be added Soon]
