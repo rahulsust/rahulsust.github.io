@@ -16,7 +16,6 @@
   overflow: hidden;
 }
 
-/* Hamburger button */
 .hamburger-icon {
   font-size: 1.6rem;
   cursor: pointer; /* index finger */
@@ -42,17 +41,9 @@
   opacity: 0;
 }
 
-/* Main content */
+/* Main content transition */
 #main-content {
   flex: 1;
   padding: 2rem;
   transition: all 0.4s ease;
-}
-
-/* Center main content when profile is hidden */
-#profile-wrapper.profile-closed ~ #main-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
