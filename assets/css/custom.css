@@ -1,0 +1,26 @@
+/* Hamburger icon */
+.hamburger-icon {
+  font-size: 1.6rem;
+  cursor: pointer;
+  margin-bottom: 0.8rem;
+  text-align: center;
+  user-select: none;
+  transition: transform 0.2s ease;
+}
+
+.hamburger-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Smooth toggle */
+#author-box {
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  overflow: hidden;
+  max-height: 2000px;
+  opacity: 1;
+}
+
+#author-box.hidden {
+  max-height: 0;
+  opacity: 0;
+}
