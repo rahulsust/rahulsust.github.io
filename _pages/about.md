@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: Rahul – Quantum Information Research
+title: Rahul – Quantum Information Researcher
 excerpt: "Independent researcher in Quantum Information Science"
 author_profile: true
 redirect_from: 
