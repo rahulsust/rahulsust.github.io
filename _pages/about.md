@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: Rahul – Quantum Information Researcher
+title: About Me 
 excerpt: "Independent researcher in Quantum Information Science"
 author_profile: true
 redirect_from: 
@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-# Welcome 👋
 
-I am **Rahul**, an independent researcher focused on **quantum resources for computation**. My work spans the fundamental, structural, and practical aspects of quantum information:
+
+I am **Rahul Dev Sharma**, an independent researcher focused on **quantum resources for computation**. My work spans the fundamental, structural, and practical aspects of quantum information:
 
 - **Magic states** – resource theory for universal quantum computation  
 - **Cluster states** – resouce for measurement-based quantum computation (MBQC)  
