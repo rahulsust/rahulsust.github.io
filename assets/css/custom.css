@@ -4,3 +4,59 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   padding: 2rem;
 }
+/* Background and body */
+body {
+  background-color: #F8F9FA;
+  color: #212529;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  color: #3A0CA3;
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: #3A0CA3;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+a:hover {
+  color: #7209B7;
+  text-decoration: underline;
+}
+
+/* Page content box */
+.page__content {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Buttons */
+button, .btn {
+  background: linear-gradient(135deg, #4B0082, #7209B7);
+  color: white !important;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+  transition: transform 0.2s ease-in-out;
+}
+button:hover, .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Navigation bar */
+.navbar, .masthead {
+  background: linear-gradient(90deg, #4B0082, #3A0CA3);
+}
+.navbar a, .masthead a {
+  color: #fff !important;
+}
