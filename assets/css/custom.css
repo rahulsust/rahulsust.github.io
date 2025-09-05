@@ -1,49 +1,6 @@
-#layout {
-  display: flex;
-  min-height: 100vh;
-  transition: all 0.4s ease;
-}
-
-#profile-wrapper {
-  display: flex;
-  align-items: flex-start;
-  transition: all 0.4s ease;
-}
-
-#author-box {
-  max-width: 250px;
-  transition: all 0.4s ease;
-  overflow: hidden;
-}
-
-.hamburger-icon {
-  font-size: 1.6rem;
-  cursor: pointer; /* index finger */
-  user-select: none;
-  transition: all 0.4s ease;
-}
-
-/* Icon left when open */
-#profile-wrapper.profile-open .hamburger-icon {
-  order: -1;
-  margin-right: 1rem;
-}
-
-/* Icon right when closed */
-#profile-wrapper.profile-closed .hamburger-icon {
-  order: 1;
-  margin-left: auto;
-}
-
-/* Collapse profile when closed */
-#profile-wrapper.profile-closed #author-box {
-  max-width: 0;
-  opacity: 0;
-}
-
-/* Main content transition */
-#main-content {
-  flex: 1;
+.page__content {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   padding: 2rem;
-  transition: all 0.4s ease;
 }
