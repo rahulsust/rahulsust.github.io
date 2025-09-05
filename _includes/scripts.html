@@ -2,10 +2,11 @@
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  var wrapper = document.getElementById("profile-wrapper");
-  var toggleBtn = document.getElementById("toggle-profile");
+  const wrapper = document.getElementById("profile-wrapper");
+  const toggleBtn = document.getElementById("toggle-profile");
 
   // Load saved state
   if (localStorage.getItem("profileState") === "closed") {
@@ -15,17 +16,19 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   toggleBtn.addEventListener("click", function() {
-    wrapper.classList.toggle("profile-open");
-    wrapper.classList.toggle("profile-closed");
-
     if (wrapper.classList.contains("profile-open")) {
-      toggleBtn.textContent = "✖";
-      localStorage.setItem("profileState", "open");
-    } else {
+      wrapper.classList.remove("profile-open");
+      wrapper.classList.add("profile-closed");
       toggleBtn.textContent = "☰";
       localStorage.setItem("profileState", "closed");
+    } else {
+      wrapper.classList.remove("profile-closed");
+      wrapper.classList.add("profile-open");
+      toggleBtn.textContent = "✖";
+      localStorage.setItem("profileState", "open");
     }
   });
 });
 </script>
+
 
