@@ -1,26 +1,20 @@
 ---
 layout: archive
-title: "Quantum"
+title: "Quantum Resources"
 permalink: /quantum/
 author_profile: true
 ---
 
-# Quantum Resources for Computation  
-
 This page collects my notes, resources, and projects ideas in **Quantum Information & Computation**.  
 
 ## Magic (Resource Theory)
-- Notes on magic states and their role in universal quantum computation  
-- Links: [Resource theory papers](#), [My project notes](#)  
+- To be added
 
 ## Cluster States (MBQC)
-- Introduction to cluster states as a resource for measurement-based quantum computation  
-- Related work & my notes  
+- To be added
 
 ## Quantum Error Correction (QEC)
-- Surface codes, tensor networks, decoders  
-- My current explorations and simulations  
+- To be added
 
 ## Quantum Machine Learning (QML)
-- QML as an application of quantum resources  
-- Example projects & curated resources  
+- To be added
