@@ -1,19 +1,35 @@
-#author-box {
-  transition: max-height 0.4s ease, opacity 0.4s ease;
-  overflow: hidden;
-  max-height: 500px;
-  opacity: 1;
+#profile-wrapper {
+  display: flex;
+  align-items: flex-start;
+  transition: all 0.4s ease;
 }
 
-#author-box.hidden {
-  max-height: 0;
+#author-box {
+  flex: 1;
+  transition: max-width 0.4s ease, opacity 0.4s ease;
+}
+
+#profile-wrapper.profile-closed #author-box {
+  max-width: 0;
   opacity: 0;
+  overflow: hidden;
 }
 
 .hamburger-icon {
   font-size: 1.6rem;
   cursor: pointer;
-  margin-bottom: 0.6rem;
-  text-align: left;
   user-select: none;
+  transition: all 0.4s ease;
+}
+
+/* Icon position when open */
+#profile-wrapper.profile-open .hamburger-icon {
+  order: -1; /* put on left */
+  margin-right: 1rem;
+}
+
+/* Icon position when closed */
+#profile-wrapper.profile-closed .hamburger-icon {
+  order: 1; /* put on right */
+  margin-left: auto;
 }
