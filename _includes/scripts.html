@@ -8,27 +8,16 @@ document.addEventListener("DOMContentLoaded", function() {
   const wrapper = document.getElementById("profile-wrapper");
   const toggleBtn = document.getElementById("toggle-profile");
 
-  // Load saved state
-  if (localStorage.getItem("profileState") === "closed") {
-    wrapper.classList.remove("profile-open");
-    wrapper.classList.add("profile-closed");
-    toggleBtn.textContent = "☰";
-  }
-
   toggleBtn.addEventListener("click", function() {
     if (wrapper.classList.contains("profile-open")) {
       wrapper.classList.remove("profile-open");
       wrapper.classList.add("profile-closed");
       toggleBtn.textContent = "☰";
-      localStorage.setItem("profileState", "closed");
     } else {
       wrapper.classList.remove("profile-closed");
       wrapper.classList.add("profile-open");
       toggleBtn.textContent = "✖";
-      localStorage.setItem("profileState", "open");
     }
   });
 });
 </script>
-
-
