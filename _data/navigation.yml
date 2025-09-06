@@ -10,24 +10,38 @@
 main:
   - title: "Publications"
     url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
+  - title: "Quantum"
+    url: /quantum/
+  - title: "Mathematics"
+    url: /mathematics/
   - title: "Portfolio"
     url: /portfolio/
-        
   - title: "Blog Posts"
     url: /year-archive/
-    
+  - title: "Hobbies & Interests"
+    url: /hobbies/
   - title: "CV"
     url: /cv/
+  # - title: "Publications"
+  #   url: /publications/
+
+  # - title: "Talks"
+  #   url: /talks/    
+
+  # - title: "Teaching"
+  #   url: /teaching/    
+    
+  # - title: "Portfolio"
+  #   url: /portfolio/
+        
+  # - title: "Blog Posts"
+  #   url: /year-archive/
     
   # - title: "CV"
-  #   url: /cv-json/
+  #   url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+  # # - title: "CV"
+  # #   url: /cv-json/
+    
+  # - title: "Guide"
+  #   url: /markdown/
