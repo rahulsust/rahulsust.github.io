@@ -22,7 +22,7 @@ I am actively seeking opportunities for **MS or PhD studies** in quantum informa
 - 🔹 **Quantum Magic in Spin Systems** – exploring resource-theoretic measures of non-stabilizerness (*mentored by an MPI scientist*)  
 - 🔹 **Learning with Topologically Protected Qubits** – applying **toric code states** to quantum machine learning (*mentored by an NYUAD postdoc*)  
 
-Beyond quantum information, I have co-authored a publication in *Astronomy & Astrophysics* [[link]](https://doi.org/10.1051/0004-6361/202453239) on massive elliptical galaxies using strong lensing.
+Beyond quantum information, I have co-authored a publication in *Astronomy & Astrophysics* [link](https://doi.org/10.1051/0004-6361/202453239) on massive elliptical galaxies using strong lensing.
 
 ---
 
