@@ -93,6 +93,7 @@
   }
 }
 
+
 .author__content {
   display: table-cell;
   vertical-align: top;
@@ -144,6 +145,13 @@
       margin-bottom: 0;
     }
   }
+
+.author__content,
+.author__avatar {
+  background: $author-background-color;
+  color: $author-text-color;
+}
+/*ABove code is newly added*/
 
   @include breakpoint($large) {
     display: block;
