@@ -86,7 +86,7 @@ author:
   location         : "Sylhet, BD"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=TCX91PIAAAAJ&hl=en"
   researchgate     : "https://www.researchgate.net/profile/Rahul-Dev-Sharma"
   email            : "sci94tune@gmail.com"
   uri              :
@@ -103,7 +103,7 @@ author:
   impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "rahul-dev-sharma"
-  orcid            : "https://orcid.org/0009-0005-8883-0707" # "http://orcid.org/yourorcidurl"
+  orcid            : # "https://orcid.org/0009-0005-8883-0707" # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
