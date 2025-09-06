@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "1D Cluster State Generation On Superconducting Hardware"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2025-08-25-1d-cluster-state-generation
+excerpt: 'Generating cluster states on superconducting qubits is crucial for measurement-based quantum computation (MBQC). This work presents analytical and numerical results for 4-qubit cluster state generation, including fidelity analysis under noise.'
+date: 2025-08-25
+venue: 'arXiv preprint'
+paperurl: 'https://arxiv.org/abs/2508.21798'
+citation: 'Sharma, Rahul Dev. (2025). "1D Cluster State Generation On Superconducting Hardware." <i>arXiv preprint</i>. arXiv:2508.21798.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+**Abstract:**  
+Measurement-based Quantum Computation (MBQC) utilizes entanglement as a resource for performing quantum computation. Generating cluster states using entanglement is a key bottleneck for the adoption of MBQC. To generate cluster states with charge-qubit arrays, we provide analytical derivations and numerical validations for a 4-qubit cluster state. We compare fidelities under ideal (noise-free) Hamiltonian evolution and under decoherence effects. Incorporating energy relaxation yields ~90% fidelity, while pure dephasing shows decays at fourth harmonics. Under noise, fidelity decays to 50% within 15 time units, versus 70% under relaxation-only time units. This decay quantifies the degradation effect on cluster-state preparation. We highlight the critical need for targeted error-mitigation strategies in near-term MBQC implementations.
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+[View paper on arXiv](https://arxiv.org/abs/2508.21798)
