@@ -1,13 +1,15 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "1D Cluster State Generation On Superconducting Hardware"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+permalink: /publication/2025-08-25-1d-cluster-state-generation
+excerpt: 'Generating cluster states on superconducting qubits is crucial for measurement-based quantum computation (MBQC). This work presents analytical and numerical results for 4-qubit cluster state generation, including fidelity analysis under noise.'
+date: 2025-08-25
+venue: 'arXiv preprint'
+paperurl: 'https://arxiv.org/abs/2508.21798'
+citation: 'Sharma, Rahul Dev. (2025). "1D Cluster State Generation On Superconducting Hardware." <i>arXiv preprint</i>. arXiv:2508.21798.'
 ---
 
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+**Abstract:**  
+Measurement-based Quantum Computation (MBQC) utilizes entanglement as a resource for performing quantum computation. Generating cluster states using entanglement is a key bottleneck for the adoption of MBQC. To generate cluster states with charge-qubit arrays, we provide analytical derivations and numerical validations for a 4-qubit cluster state. We compare fidelities under ideal (noise-free) Hamiltonian evolution and under decoherence effects. Incorporating energy relaxation yields ~90% fidelity, while pure dephasing shows decays at fourth harmonics. Under noise, fidelity decays to 50% within 15 time units, versus 70% under relaxation-only time units. This decay quantifies the degradation effect on cluster-state preparation. We highlight the critical need for targeted error-mitigation strategies in near-term MBQC implementations.
+
+[View paper on arXiv](https://arxiv.org/abs/2508.21798)
