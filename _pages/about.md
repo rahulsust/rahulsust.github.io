@@ -11,7 +11,7 @@ redirect_from:
 
 I am **Rahul Dev Sharma**, a recent graduate in Physics from *Shahjalal University of Science and Technology, Sylhet, Bangladesh*, with a strong focus on **quantum information science** and **computational physics**. My research interests revolve around the resources that make quantum computation possible—ranging from **fundamental measures like magic in spin systems**, to **structural resources such as cluster states**, and **practical frameworks in error correction and quantum machine learning**.  
 
-I am currently exploring quantum computing through collaborative research opportunities with scientists from institutions such as **Max Planck Institute**, **NYU Abu Dhabi**. My work focuses on problems spanning quantum magic and QML.
+I am currently exploring quantum information, and many body physics through collaborative research opportunities with scientists from institutions such as **TU Dresden**, **NYU Abu Dhabi**. My work focuses on problems spanning quantum magic and QML.
 
 I am actively seeking opportunities for **MS or PhD studies** in quantum information science and computational physics.
 
@@ -19,8 +19,8 @@ I am actively seeking opportunities for **MS or PhD studies** in quantum informa
 
 ## Current Research  
 
-- 🔹 **Quantum Magic in Spin Systems** – exploring resource-theoretic measures of non-stabilizerness (*mentored by an MPI scientist*)  
-- 🔹 **Learning with Topologically Protected Qubits** – applying **toric code states** to quantum machine learning (*mentored by an NYUAD postdoc*)  
+- 🔹 **Quantum Magic in Spin Systems** – exploring resource-theoretic measures of non-stabilizerness
+- 🔹 **Learning with Topologically Protected Qubits** – applying **toric code states** to quantum machine learning
 
 Beyond quantum information, I have co-authored a publication in *Astronomy & Astrophysics* [link](https://doi.org/10.1051/0004-6361/202453239) on massive elliptical galaxies using strong lensing.
 
